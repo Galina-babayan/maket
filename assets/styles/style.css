@@ -1,0 +1,245 @@
+.all_container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+.about_row {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(244, 241, 238, 1);
+  padding: 30px 0px 0px 0px;
+
+  font-family: "Montserrat", Times, serif;
+  font-size: 16px;
+}
+
+.about {
+  padding: 5px;
+}
+
+.menu {
+  padding: 5px;
+  margin: 5px;
+  font: normal 400 16pt/16px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+.menu:hover {
+  text-decoration: underline;
+}
+
+.content_1,
+.content_1_row_column {
+  display: flex;
+  justify-content: center;
+}
+
+.content_1_row {
+  display: flex;
+}
+
+.content_1_row_column {
+  flex-direction: column;
+}
+
+.content_1_row_column_title {
+  padding: 0px 0px 40px 0px;
+  font-family: "ZCOOL XiaoWei", Times, serif;
+  font-size: 45px;
+}
+
+.content_1_row_column_text {
+  padding: 40px 0px 40px 0px;
+  font-family: "Open Sans", Times, serif;
+}
+
+.content_1_row_column_btn {
+  padding: 40px 0px 0px 0px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  padding: 10px;
+  border-radius: 3px;
+  width: 225px;
+  text-decoration: none;
+  font-family: "Open Sans", Times, serif;
+}
+
+.btn1 {
+  background: rgba(35, 32, 32, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn2 {
+  background: rgba(244, 241, 238, 1);
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(212, 138, 92, 1);
+}
+
+.btn3 {
+  background: rgba(242, 234, 226, 1);
+  color: rgba(28, 26, 26, 1);
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+  background-color: rgba(212, 138, 92, 1);
+}
+
+.content_1_img_2,
+.content_1_row_column {
+  padding: 20px;
+  background-color: rgba(244, 241, 238, 1);
+}
+
+.content_2,
+.content_2_row {
+  display: flex;
+  flex-basis: 1110px;
+}
+
+.content_2_row {
+  justify-content: center;
+  background-color: rgba(244, 241, 238, 1);
+}
+
+.photo_1,
+.photo_2,
+.photo_3 {
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.photo_1 {
+  padding: 20px 5px 20px 200px;
+}
+
+.photo_2 {
+  padding: 20px;
+  padding: 20px 5px 20px 5px;
+}
+
+.photo_3 {
+  padding: 20px;
+  padding: 20px 200px 20px 5px;
+}
+
+.content_3 {
+  display: flex;
+  align-items: center;
+}
+
+.content_3_background {
+  position: relative;
+  text-align: center;
+  flex-basis: 1110px;
+}
+
+.content_3_block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content_3_image_title {
+  font-family: "ZCOOL XiaoWei", Times, serif;
+  font-size: 55px;
+  padding: 0px 0px 20px 0px;
+}
+
+.content_3_image_text {
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+}
+
+.content_3_image_btn {
+  padding: 30px 0px 10px 0px;
+}
+
+.center_image {
+  width: 1110px;
+}
+
+.content_4_product {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(244, 241, 238, 1);
+}
+
+.product_btn {
+  padding: 50px 0px 20px 0px;
+  text-align: center;
+  font-family: "Open Sans", Times, serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+}
+
+.product_title {
+  font-family: "ZCOOL XiaoWei", Times, serif;
+  font-size: 55px;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-family: "ZCOOL XiaoWei", Times, serif;
+  font-size: 55px;
+}
+
+.name {
+  text-align: center;
+  border: 3px solid black;
+  padding: 20px;
+  margin: 20px;
+  color: rgba(35, 32, 32, 1);
+  width: 50%;
+  font-family: "ZCOOL XiaoWei", Times, serif;
+  align-self: center;
+}
+
+.product_row {
+  display: flex;
+  padding: 30px 20px 30px 60px;
+}
+
+.product_column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+span {
+  font-family: "Open Sans", Times, serif;
+  font-size: 14px;
+  color: rgba(28, 26, 26, 1);
+}
+
+.footer_row {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(244, 241, 238, 1);
+}
+
+.footer_text {
+  color: rgba(132, 132, 132, 1);
+  font-size: 14px;
+  font-family: "Open Sans", Times, serif;
+}
